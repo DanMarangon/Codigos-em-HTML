@@ -1,0 +1,114 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo 14 HTML</title>
+    </head>
+    <body>
+        <h1>Exemplo 14 HTML - Formulários</h1>
+        <h2> Formulário de Cadastro</h2>
+        <form action="paginaDestino.java" method="get">
+            <div>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <br>
+                    <label for="txtCPF">CPF:</label><br>
+                    <input type="text" name="txtCPF" id="txtCPF"><br>
+                    
+                    <br>
+                    <label for="txtRG">RG:</label><br>
+                    <input type="text" name="txtRG" id="txtRG"><br>
+                    
+                    <br>
+                    <label for="txtNome">Digite o seu Nome:</label><br>
+                    <input type="text" name="txtNome" id="txtNome"><br>
+                    
+                    <br>
+                    <label for="txtAnoNascimento">Ano de Nascimento:</label><br>
+                    <input type="number" name="txtAnoNascimento" id="txtAnoNascimento" min="1910" max="2100" step="1">
+                    <br>
+                    <br>
+                    <label>Sexo</label><br>
+                    <input type="radio" name="radioSexo" id="radioSexoFem" value="1"> Feminino
+                    <input type="radio" name="radioSexo" id="radioSexoMasc" value="2"> Masculino
+                    
+                    <br>
+                    <br>
+                    <label for="cboEstadoCivil">Estado Civil</label><br>
+                    <select name="cboEstadoCivil" id="cboEstadoCivil">
+                        <option value="1">Casado</option>
+                        <option value="2">Solteiro</option>
+                        <option value="3">Viúvo</option>
+                        <option value="4">Divorciado</option>
+                        <option value="5">Tico-tico no fubá</option>
+                        <option value="6">Outros</option>     
+                    </select>
+                    <br>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Preferências</legend>
+                    <fieldset>
+                        <legend>Escolha um ou mais locais de lazer</legend>
+                         <input type="checkbox" name="ckTipoLazer" id="ckLazerPraia" value ="1"> Praia 
+                        <br>
+                        <input type="checkbox" name="ckTipoLazer" id="ckLazerMontanha" value ="2"> Montanha
+                        <br>
+                        <input type="checkbox" name="ckTipoLazer" id="ckLazerCasa" value ="3"> Casa
+                        <br>
+                        <input type="checkbox" name="ckTipoLazer" id="ckLazerRua" value ="4"> Rua
+                    </fieldset>
+                    <fieldset>
+                        <legend>Escolha uma região Favorita</legend>
+                         <input type="radio" name="radioRegiao" id="radioRegiaoNordeste" value="1"> Nordeste
+                        <br>
+                        <input type="radio" name="radioRegiao" id="radioRegiaoSudeste" value="2"> Sudeste
+                        <br>
+                        <input type="radio" name="radioRegiao" id="radioRegiaoCentroOeste" value="3"> Centro-Oeste
+                        <br>
+                        <input type="radio" name="radioRegiao" id="radioRegiaoNorte" value="4"> Norte 
+                        <br>
+                        <input type="radio" name="radioRegiao" id="radioRegiaoSul" value="5"> Sul
+                        <br>
+                    </fieldset>
+                </fieldset>
+            </div>
+    
+            <div>
+                <h3>Dados Cadastrados</h3>
+                <table>
+                    <tr>
+                        <th>CPF</th>
+                        <th>NOME</th>
+                        <th>ANO NASCIMENTO</th>
+                    </tr>
+                    <tr>
+                        <td>555.222.111-44</td>
+                        <td>José da silva</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>555.222.111-44</td>
+                        <td>Thalles da banana</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>555.222.111-44</td>
+                        <td>Matheus da picanha</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>555.222.111-44</td>
+                        <td>Dan do pirulito</td>
+                        <td>2000</td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </body>
+    </html>
+    
