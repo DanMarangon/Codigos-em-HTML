@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade2</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Identificação do usuário</legend>
+            Nome: <input type="text" placeholder="Nome Completo">
+            <br>
+            <br>
+
+            Senha: <input type="password" placeholder="Digite a senha">
+
+            <br>
+            <br>
+
+            Email: <input type="text" placeholder="Digite o email">
+            <br>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio"> Masculino
+                <input type="radio"> Feminino
+            </fieldset>
+
+            <br>
+            Data de nascimento: <input type="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            Logradouro: <input type="text" placeholder="Rua,Av,Bairro">
+            <br>
+            <br>
+
+            Numero: <input type="text">
+            <br>
+            <br>
+            Estado: <select>
+
+                <option>Rio de Janeiro</option>
+            </select>
+            <br>
+            <br>
+            Cidade: <input type="text" placeholder="Sua Cidade">
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Mensagem do usuário</legend>
+
+            Grau de urgência: Min<input type="range">Max
+
+            <br>
+            <br>
+            <br>
+
+            Mensagem: <textarea name="TEXTO" id="texto_id" cols="40" rows="4"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend><strong>Quero um Produto</strong></legend>
+            <input type="checkbox"> Gostaria de adquirir um produto quando disponível.
+            <br>
+            <br>
+            Cor: <input type="color"><br> <br>
+            Quantidade: <input type="text" size="3"> <br> <br>
+            Preço Total R$: <input type="text" size="5">
+
+
+
+        </fieldset>
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
