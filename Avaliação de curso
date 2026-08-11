@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+
+    <body>
+
+        <div style="border: 4px solid black; padding: 10px;">
+
+
+
+
+    </body>
+    <h1 align="center">Formulario</h1>
+    <form>
+        Nome:<input size="25" type="text">
+        Email: <input size="25" type="text">
+        <br>
+        Fone: <input size="10" type="text">
+
+        <table border="1">
+            <tr>
+                <th>O que você está achando do andamento do curso até agora?</th>
+
+                <th>Avalie o curso até agora; agora</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox"> Muito bom, sem comentários
+                    <br>
+                    <input type="checkbox"> Bom, sem comentários
+                    <br>
+                    <input type="checkbox"> Muito
+                    <br>
+                    <input type="checkbox"> Poderia ir mais rápido
+                    <br>
+                    <input type="checkbox"> Poderia ir mais devagar
+                    <br>
+                    <input type="checkbox"> Outra Opinião. Qual?
+                    <br>
+                    <input type="checkbox">
+                </td>
+
+                <td>
+                    <input type="radio" name="nota"> 10++
+                    <br>
+                    <input type="radio" name="nota"> 10
+                    <br>
+                    <input type="radio" name="nota"> 9++
+                    <br>
+                    <input type="radio" name="nota">8++
+                    <br>
+                    <input type="radio" name="nota"> 7++
+                    <br>
+                    <input type="radio" name="nota"> Outra. Qual? <input size="5" type="text">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        Deixe aqui seus comentários e críticas construtivas
+        <textarea rows="3" cols="45"></textarea>
+
+        <br>
+
+        <input type="reset" value="Limpar Campos">
+        <input type="submit" value="Enviar Dados">
+
+
+
+    </form>
+    </div>
+</body>
+
+</html>
